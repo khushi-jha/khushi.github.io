@@ -1,0 +1,155 @@
+body{
+	/*background: url(bg7.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	margin: 0px;
+	padding: 0px;
+	/*font-family: "Montserrat", sans-serif;*/
+	font-family: "Georgia", serif;
+}
+.bg{ 
+	background: url(signin2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh
+}
+.container{   
+	margin-top: 20px;
+	width: 400px;
+	height: 600px;
+    position: absolute;
+    background-image: url(signin3.jpg);
+    background-color: rgba(0,0,0,1);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container h1{
+	font-size: 40px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	
+}
+.container h4{
+	padding: 4px;
+	box-sizing: border-box;
+	font-size: 22px;
+	color: pink;
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+.container h2{
+	padding: 4px;
+	box-sizing: border-box;
+	color: pink;
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+.flex-container{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.flex-container img{
+	height: 60px;
+	width: 60px;
+	margin: 10px;
+	border-radius: 60%;
+}
+
+.part
+{
+	height: 100px;
+	margin-top: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;	
+}
+.tbox{
+	width: 260px;
+	height: 40px;
+	background: white;
+	margin: 10px auto;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #fff;
+}
+
+.tbox input{
+	background: none;
+	border: none;
+	outline: none;
+	text-align: center;
+	width: 90%;
+	line-height: 37px;
+	font-family: "Georgia", serif;
+    font-size: 14px;
+    color: white;
+}
+
+.btn{
+	width: 260px;
+	height: 40px;
+	background: #29B6F6;
+	border-radius: 15px;
+	margin: 30px auto;
+	display: block;
+	font-family: "Georgia", serif;
+	font-size: 16px;
+	border: none;
+    color: white;
+    cursor: pointer;
+}
+.button{
+	width: 120px;
+	height: 40px;
+	background: #29B6F6;
+	border-radius: 15px;
+	margin: 30px auto;
+	display: block;
+	font-family: "Georgia", serif;
+	font-size: 16px;
+	border: none;
+    color: white;
+    cursor: pointer;
+}
+ a{
+	text-decoration: none;
+	transition: 1s;
+
+} 
+.b1{
+	display: block;
+	width: 260px;
+	padding: 10px 0;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+
+a:hover{
+	color:white ;
+}
+
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
